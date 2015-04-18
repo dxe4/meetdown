@@ -1,0 +1,8 @@
+site :opscode
+
+cookbook "apt"
+cookbook "postgresql"
+cookbook "build-essential"
+cookbook "rvm", :github => "fnichol/chef-rvm"
+cookbook "git"
+
